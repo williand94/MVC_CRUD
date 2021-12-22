@@ -7,7 +7,6 @@
         $controller = $_GET['controller'];
         $action = $_GET['action'];
 
-        print_r($_GET);
     }else{
         $controller = 'home';
     }
