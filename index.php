@@ -8,7 +8,8 @@
         $action = $_GET['action'];
 
     }else{
-        $controller = 'home';
+        $controller = 'homeController';
+        $action = 'home';
     }
     
-    require_once ("views/template.php");
+    include_once ("views/template.php");

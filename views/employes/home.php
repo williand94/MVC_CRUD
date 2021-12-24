@@ -8,11 +8,17 @@
         </tr>
     </thead>
     <tbody>
-        <tr>
-            <td>1</td>
-            <td>Willian Vallecilla</td>
-            <td>will@gmail.com</td>
-            <td>update | delete</td>
-        </tr>
+     <?php foreach ($show as $employed) :
+        
+            foreach ($employed as $key) {
+                # code...
+        ?>
+            <tr>
+                <td><?php echo $key['id'] ;  ?></td>
+                <td><?php echo $key['name'] ;?></td>
+                <td><?php echo $key['email'];?></td>
+                <td>update | delete</td>
+            </tr>
+       <?php } endforeach;?>
     </tbody>
 </table>
