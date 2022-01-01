@@ -11,5 +11,5 @@
         $controller = 'homeController';
         $action = 'home';
     }
-    
     include_once ("views/template.php");
+    

@@ -14,8 +14,8 @@
       <nav class="navbar navbar-expand navbar-light bg-light">
           <div class="nav navbar-nav">
               <a class="nav-item nav-link active" href="#">System<span class="visually-hidden">(current)</span></a>
-              <a class="nav-item nav-link" href="#">Home</a> 
-              <a class="nav-item nav-link" href="#">Eployed</a> 
+              <a class="nav-item nav-link" href="?controller=pageController&action=home">Home</a> 
+              <a class="nav-item nav-link" href="./?controller=employesController&action=home">Employee</a> 
           </div>
       </nav>
       <div class="container">
